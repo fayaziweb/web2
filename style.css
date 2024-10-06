@@ -1,0 +1,108 @@
+body{
+    font-family: poppins;
+}
+*{
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff9ea;
+    height: 108px;
+    align-items: center;
+   padding: 0px 140px;
+}
+.logo{
+    width: 147px;
+    height: 47px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.signin{
+    background-color:#ffcb45;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+.hero-container{
+    background-image: url('/IMAGES/shapes.png');
+    height: 500px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    padding: 0 140px;
+}
+.left-container{
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+    
+}
+
+/*how it works style*/
+
+.how-it-works-container{
+    margin-top: 80px;
+
+  
+
+}
+.what-we-serve{
+    display: flex;
+    margin: 0 200px;
+    gap: 200px;
+    padding-bottom: 100px;
+
+}
+
+.our-class{
+   
+ text-align: center;
+ padding-bottom: 50px;
+
+}
+.food-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.food-one{
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.food-two{
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.food-three{
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.food-four{
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+/*review style*/
+
+.review-container{
+    display: flex;
+}
+
+.next-image{
+    position: relative;
+    top: -34px;
+}
